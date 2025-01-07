@@ -75,6 +75,7 @@ const Services = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
           {ServicesData.map((service) => (
             <motion.div
+              key={service.id}
               variants={SlideLeft(service.delay)}
               initial="initial"
               whileInView={"animate"}

@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import { IoMdMenu } from "react-icons/io";
 import { motion } from "framer-motion";
-import Logo from "../../assets/fams.png";
+import Logo from "../assets/fams.png";
 
 const NavbarMenu = [
   {
@@ -11,13 +11,13 @@ const NavbarMenu = [
   },
   {
     id: 2,
-    title: "Services",
+    title: "Layanan",
     link: "#",
   },
   {
     id: 3,
-    title: "About Us",
-    link: "/",
+    title: "About",
+    path: "/about",
   },
   {
     id: 4,

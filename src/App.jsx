@@ -1,25 +1,25 @@
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home";
+import About from "./Pages/AboutUs.jsx";
 
-
-import Hero from "./components/Hero/Hero";
-import Hero2 from "./components/Hero/Hero2";
-import Services from "./components/Services/Services";
-import Banner from "./components/Banner/Banner";
-import Subscribe from "./components/Subscribe/Subscribe";
-import Banner2 from "./components/Banner/Banner2";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar.jsx"
+import Footer from "./components/Footer.jsx"
 
 const App = () => {
   return (
+    <>
+      <Router>
+        <Navbar/>
 
-      <main className="overflow-x-hidden bg-white text-dark">
-      <Hero />        
-      <Services />
-      <Banner />
-      <Subscribe />
-      <Banner2 />
-      <Footer />
-      </main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+
+        </Routes>
+        
+        <Footer />
+      </Router>
+    </>
     
   );
 };

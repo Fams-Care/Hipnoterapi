@@ -1,8 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { TbBrandLinktree, TbWorldWww } from "react-icons/tb";
 import { motion } from "framer-motion";
-import Logo from "../../assets/fams.png";
+import Logo from "../assets/fams.png";
 
 const Footer = () => {
   return (
