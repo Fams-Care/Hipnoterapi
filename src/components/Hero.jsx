@@ -2,7 +2,7 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Blob from "../assets/blob.svg";
-import HeroPng from "../assets/hero2.png";
+import HeroPng from "../assets/banner3.png";
 import { motion } from "framer-motion";
 // import About from "./Pages/AboutUs.jsx";
 

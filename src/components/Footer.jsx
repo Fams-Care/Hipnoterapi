@@ -7,7 +7,7 @@ import Logo from "../assets/fams.png";
 
 const Footer = () => {
   return (
-    <footer className="py-28 bg-[#f7f7f7]">
+    <footer className=" pb-10 pt-10 bg-[#f7f7f7]">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -19,7 +19,7 @@ const Footer = () => {
             {/* <h1 className="text-2xl font-bold">Hypnoterapy</h1> */}
             <img src={Logo} alt="Fams Logo" className="w-[200px] sm:w-[200px]" />
             <p className="text-dark2">
-            ­­­­­­­­­­­­­­­­Fams Medika merupakan bidang layanan kesehatan visi kekeluargaan, Yang mana kekeluargaan juga dapat dimaknai sebagai kasih sayang, sehingga pasien nyaman ketika datang untuk menggunakan layanan klinik yang disediakan­­­­­­­­­­­­­­­­­­­­­­
+            ­­­­­­­­­­­­­­­­Fams Care merupakan bidang layanan kesehatan visi kekeluargaan, Yang mana kekeluargaan juga dapat dimaknai sebagai kasih sayang, sehingga pasien nyaman ketika datang untuk menggunakan layanan klinik yang disediakan­­­­­­­­­­­­­­­­­­­­­­
             </p>
           </div>
           {/* second section */}

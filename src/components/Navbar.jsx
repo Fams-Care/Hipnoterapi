@@ -12,7 +12,7 @@ const NavbarMenu = [
   {
     id: 2,
     title: "Layanan",
-    link: "#",
+    path: "/layanan",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const Navbar = () => {
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
-        className="container py-10 flex justify-between items-center"
+        className="container py-5 flex justify-between items-center"
       >
         {/* Logo section */}
         <div>
